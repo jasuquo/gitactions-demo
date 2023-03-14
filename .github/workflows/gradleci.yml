@@ -38,7 +38,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: jasuquo/demo-app
+        image: joemile/demo-app
         tags: v1, latest
         registry: registry-url.io
         dockerfile: Dockerfile.ci
